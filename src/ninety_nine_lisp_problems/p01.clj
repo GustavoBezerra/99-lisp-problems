@@ -1,4 +1,2 @@
-(def valores ["A" "B" "C" "D"])
-
-(defn teste [] 
+(defn p01 [valores] 
     (println (first (reverse valores))))
