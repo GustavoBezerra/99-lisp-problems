@@ -1,7 +1,8 @@
 (ns ninety-nine-lisp-problems.core
   (:gen-class))
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(load "p01")
+
+(defn -main [& args]
+  (println "Solution problem P01:")
+  (teste))
