@@ -5,4 +5,4 @@
     (print " " valores)
     (print "   |   ")
     (print (= palindrome (reverse palindrome)))
-    (print " " palindrome))
+    (println " " palindrome))
