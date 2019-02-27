@@ -3,7 +3,7 @@
 
 (def valores ["A" "B" "C" "D"])
 
-(load "p01" "p02" "p03" "p04")
+(load "p01" "p02" "p03" "p04" "p05")
 
 (defn -main [& args]
   (println "Solution problem P01:")
@@ -13,4 +13,6 @@
   (println "Solution problem P03:")
   (p03 valores 3)
   (println "Solution problem P04:")
-  (p04 valores))
+  (p04 valores)
+  (println "Solution problem P05:")
+  (p05 valores))
